@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin
+
+# Host
+Host: https://lawcost.ch
+
+# Sitemaps
+Sitemap: https://lawcost.ch/sitemap.xml
