@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+/* Variables CSS pour le thème sombre */
+:root {
+  --bg-primary: #0A0B1C;
+  --bg-secondary: #1A1B3B;
+  --text-primary: #E2E2E8;
+  --text-secondary: #A0A0B0;
+  --accent: #ED49AE;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}

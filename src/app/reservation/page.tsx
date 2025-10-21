@@ -403,7 +403,7 @@ const generateTimeSlots = async (date: Date) => {
                 <button
                   type="submit"
                   disabled={!selectedSlot || isSubmitting || !captchaToken}
-                  className={`w-full mt-6 py-3 bg-gradient-to-r from-[#ED49AE] to-[#270B84] text-white font-medium rounded-lg transition-all duration-300 ${
+                  className={`w-full mt-6 py-3 bg-linear-to-r from-[#ED49AE] to-[#270B84] text-white font-medium rounded-lg transition-all duration-300 ${
                     !selectedSlot || isSubmitting || !captchaToken
                       ? 'opacity-50 cursor-not-allowed' 
                       : 'hover:from-[#f16bbd] hover:to-[#3a11b7]'
